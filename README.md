@@ -1,1 +1,1 @@
-# HomeWorksTestNG
+# InfoTechAcademyHomeWorksTestNG
