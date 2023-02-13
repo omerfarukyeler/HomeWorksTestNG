@@ -40,7 +40,7 @@ public class HomeWorks4  extends TestBase {
         Driver.getDriver().switchTo().window(handles.toArray()[1].toString());//1 nolu indisteki siteyi açar
         Driver.wait(2);
 
-        WebElement searchEbay = Driver.getDriver().findElement(By.xpath("//input[@type='text']"));
+        WebElement searchEbay = Driver.getDriver().findElement(By.xpath("//input[@type='text']"));//search bulundu
         searchEbay.sendKeys(gifts);//gifts i gönderdik.
         Driver.wait(2);
 
