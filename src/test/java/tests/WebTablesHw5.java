@@ -22,7 +22,18 @@ public class WebTablesHw5 extends TestBase {
     Soru2
     1.Kullanıcı  https://the-internet.herokuapp.com/tables adresine gider.
     2.Birinci tablonun tüm başlıklarının ikinci tablonun tüm başlıkları ile aynı olduğunu doğrular.
+
+
+    ====================================================================================
+
+    Soru3
+
+    1.Kullanıcı  https://the-internet.herokuapp.com/tables adresine gider.
+    2.Kullanıcı 2’inci tabloda 3’üncü satır 4’üncü veriyi XPATH ile locate eder.
+    3.Değerin doğruluğunu kontrol eder.
      */
+
+
 
     TableTestPage tableTestPage= new TableTestPage();//TableTestPage classını çağırdık.
     @Test
