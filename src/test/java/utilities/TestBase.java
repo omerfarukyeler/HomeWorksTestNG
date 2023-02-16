@@ -15,7 +15,8 @@ public class TestBase {
         Driver.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         // Proje nin asıl linki Configurations.properties dosyasına eklenir ve her testten önce proje sayfası açılması için bu metod içine eklenir.
         // Ancak yaptığımız örnek testlerden dolayı birçok farklı link ile çalışıyoruz. Sabit bir proje linkimiz olmadığı için aşağıdaki kod satırı yoruma alınmıştır.
-        Driver.getDriver().get(ConfigReader.getProperty("projectUrl"));
+        //Driver.getDriver().get(ConfigReader.getProperty("projectUrl")); // bir çok projede çalıştığımız için gidilecek url yi kendimiz yazdık .
+
 
 
     }
