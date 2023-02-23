@@ -39,7 +39,7 @@ public class ListTestHw6  extends TestBase {
 
             WebElement listone =Driver.getDriver().findElement(By.xpath(reUsableMethods.findLocationOfElementsTableCell(i)));//for döngüsüyle tablodan bilgiler alındı.
             String data1 =listone.getText().toString().replace("$","");// $ işareti kaldırıldı.
-            //System.out.println("data1:"+ data1);
+            System.out.println( data1);
 
             Double data2=Double.valueOf(data1);//yeni oluşturulan data2nin içine data1 eklendi.
             if(data2>50.000){
